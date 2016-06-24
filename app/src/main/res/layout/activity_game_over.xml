@@ -7,6 +7,81 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.student.bounce.GameOver">
+    tools:context="com.example.student.bounce.GameOver"
+    android:clickable="true">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:id="@+id/textView"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Replay"
+        android:id="@+id/button7"
+        android:layout_marginTop="31dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOme"
+        android:id="@+id/button8"
+        android:layout_marginTop="29dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:id="@+id/button9"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
 </RelativeLayout>

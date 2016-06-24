@@ -5,20 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Store extends AppCompatActivity {
+public class Store2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_store);
-    }
-    public void button3(View view) {
-        Intent intent = new Intent(this, BallStore.class);
-        startActivity(intent);
-    }
-    public void button4(View view) {
-        Intent intent = new Intent(this, TrackStore.class);
-        startActivity(intent);
+        setContentView(R.layout.activity_pause_menu);
     }
     public void button6(View view) {
         Intent intent = new Intent(this, CoinShop.class);

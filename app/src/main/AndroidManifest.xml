@@ -16,11 +16,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".GamePlay" />
-        <activity android:name=".Store" />
+        <activity android:name=".Store2" />
         <activity android:name=".BallStore" />
         <activity android:name=".TrackStore" />
         <activity android:name=".PauseMenu" />
-        <activity android:name=".GameOver"></activity>
+        <activity android:name=".GameOver" />
+        <activity android:name=".Store" />
+        <activity android:name=".CoinShop"></activity>
     </application>
 
 </manifest>
