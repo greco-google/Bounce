@@ -14,32 +14,33 @@
         android:layout_height="wrap_content"
         android:text="Balls"
         android:id="@+id/button3"
-        android:layout_marginTop="38dp"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4"
         android:clickable="true"
-        android:onClick="button3"/>
+        android:onClick="button3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tracks"
         android:id="@+id/button4"
-        android:layout_marginTop="73dp"
         android:clickable="true"
+        android:onClick="button4"
         android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:onClick="button4"/>
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="70dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No Ads"
         android:id="@+id/button5"
-        android:layout_marginTop="69dp"
         android:clickable="true"
-        android:layout_below="@+id/button4"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginBottom="72dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
 
     <Button
         android:layout_width="wrap_content"
@@ -47,10 +48,10 @@
         android:text="Buy Coins"
         android:id="@+id/button6"
         android:clickable="true"
+        android:layout_marginBottom="71dp"
+        android:onClick="button6"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5"
-        android:layout_marginBottom="44dp"
-        android:onClick="button6"/>
+        android:layout_alignStart="@+id/button5" />
 
 </RelativeLayout>

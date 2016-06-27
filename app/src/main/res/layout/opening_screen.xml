@@ -32,9 +32,9 @@
         android:clickable="true"
         android:lines="2"
         android:onClick="buttonClicked"
+        android:layout_marginTop="43dp"
         android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="105dp" />
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="85dp"

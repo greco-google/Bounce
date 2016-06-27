@@ -83,5 +83,6 @@
         android:textSize="30dp"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/button8"
-        android:layout_alignStart="@+id/button8" />
+        android:layout_alignStart="@+id/button8"
+        android:clickable="true" />
 </RelativeLayout>

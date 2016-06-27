@@ -14,55 +14,54 @@
         android:layout_height="wrap_content"
         android:text="Purchase"
         android:id="@+id/button15"
-        android:layout_marginTop="55dp"
+        android:clickable="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:clickable="true" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Purchase"
         android:id="@+id/button16"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="48dp"
+        android:clickable="true"
         android:layout_below="@+id/button15"
         android:layout_alignLeft="@+id/button15"
-        android:layout_alignStart="@+id/button15"
-        android:clickable="true" />
+        android:layout_alignStart="@+id/button15" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Purchase"
         android:id="@+id/button17"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="48dp"
+        android:clickable="true"
         android:layout_below="@+id/button16"
         android:layout_alignLeft="@+id/button16"
-        android:layout_alignStart="@+id/button16"
-        android:clickable="true" />
+        android:layout_alignStart="@+id/button16" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Purchase"
         android:id="@+id/button18"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/button17"
-        android:layout_alignLeft="@+id/button17"
-        android:layout_alignStart="@+id/button17"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_above="@+id/button19"
+        android:layout_alignLeft="@+id/button19"
+        android:layout_alignStart="@+id/button19"
+        android:layout_marginBottom="45dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Purchase"
         android:id="@+id/button19"
-        android:layout_below="@+id/button18"
-        android:layout_alignLeft="@+id/button18"
-        android:layout_alignStart="@+id/button18"
-        android:layout_marginTop="40dp"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="50dp" />
 
     <TextView
         android:layout_width="wrap_content"
