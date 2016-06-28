@@ -4,6 +4,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
+import android.graphics.Rect;
 
 /**
  * Created by student on 6/27/2016.
@@ -11,13 +12,11 @@ import android.graphics.Point;
 public class Track {
     private Point point;
     private int color;
-    private int radius;
     private Paint paint;
 
-    public Track(int y, int x, int col, int r) {
+    public Track(int y, int x, int col) {
         point = new Point(x,y);
         color = col;
-        radius = r;
         paint = new Paint();
         paint.setColor(color);
     }
@@ -26,9 +25,6 @@ public class Track {
     }
     public int getY() {
         return point.y;
-    }
-    public int getRadius() {
-        return radius;
     }
     public Paint getPaint() {
         return paint;
@@ -49,13 +45,16 @@ public class Track {
 
     }
     public void bounce(Canvas canvas) {
+
         if (point.x > canvas.getWidth() || point.x < 0) {
         }
         if (point.y > canvas.getWidth() || point.y < 0) {
         }
     }
     public void tick (Canvas canvas) {
+        Paint myPaint = new Paint();
+        myPaint.setColor(Color.BLUE);
         this.bounce(canvas);
-        canvas.drawCircle(this.getX(), this.getY(), this.getRadius(), this.getPaint());
+        canvas.drawRect(this.getX(), this.getY(),this.getX(),this.getY(), myPaint);
     }
 }

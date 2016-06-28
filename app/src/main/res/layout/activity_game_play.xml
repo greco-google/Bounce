@@ -12,7 +12,10 @@
     <com.example.student.bounce.BallAnimation
         android:id="@+id/ballAnimation"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
     <Button
