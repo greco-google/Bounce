@@ -1,9 +1,12 @@
 package com.example.student.bounce;
 
 import android.content.Intent;
+import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.View;
 
 public class GamePlay extends AppCompatActivity {
@@ -27,5 +30,15 @@ public class GamePlay extends AppCompatActivity {
         Intent intent = new Intent(this, PauseMenu.class);
         startActivity(intent);
     }
+
+//    public boolean onTouchEvent(MotionEvent event){
+//        this.mDetector.onTouchEvent(event);
+//        if(onTouchEvent())
+//            changeXVelocity(xvelocity * -1.08);
+//            changeYVelocity(yvelocity * -1.08);
+//
+//        return super.onTouchEvent(event);
+//    }
+
 }
 

@@ -27,10 +27,11 @@ public class BallAnimation extends View {
         paint.setColor(Color.BLACK);
 
         //Creating the ball object(x=100 y=100 color=black radus=50
-        myBall = new Ball(400, 250, Color.BLACK, 10);
+        myBall = new Ball(400, 250, Color.BLUE, 10);
        // myTrack = new Track(360,215, Color.BLUE);
         Canvas canvas = new Canvas();
         canvas.drawRect(360,215,100,100, paint);
+        //canvas.drawRect(320,175,60,60, paint);
 
         //speed of the ball
         myBall.setDX(2);
@@ -41,7 +42,7 @@ public class BallAnimation extends View {
 
         //drawing the images by taking data from the ball
         canvas.drawRect(10,50,1000,950, paint);
-        //canvas.drawRect(10,50,925,875, paint.getColor(android.R.color.white));
+       // canvas.drawRect(10,50,925,875, paint.getColor(android.R.color.white));
         myBall.tick(canvas);
 
         //Call the runnable which will calculate the model and draw animation

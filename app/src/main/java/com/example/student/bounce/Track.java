@@ -53,7 +53,7 @@ public class Track {
     }
     public void tick (Canvas canvas) {
         Paint myPaint = new Paint();
-        myPaint.setColor(Color.BLUE);
+        myPaint.setColor(Color.BLACK);
         this.bounce(canvas);
         canvas.drawRect(this.getX(), this.getY(),this.getX(),this.getY(), myPaint);
     }
