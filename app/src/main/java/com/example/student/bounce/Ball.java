@@ -9,13 +9,13 @@ import android.graphics.Point;
  */
 public class Ball {
 
-    private Point point;
+    public Point point;
         private int color;
-        private double xvelocity;
-        private double yvelocity;
+        public double xvelocity;
+        public double yvelocity;
         private int radius;
         private Paint paint;
-        private static final double MAX_SPEED = 15;
+        private static final double MAX_SPEED = 12;
 
         public Ball(int y, int x, int col, int r) {
             point = new Point(x,y);

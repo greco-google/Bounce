@@ -13,7 +13,17 @@ public class PauseMenu extends AppCompatActivity {
         setContentView(R.layout.activity_pause_menu);
     }
     public void button26(View view){
+        Intent intent = new Intent(this, GamePlay.class);
+        startActivity(intent);
+
+    }
+    public void button25(View view){
         Intent intent = new Intent(this, Store.class);
+        startActivity(intent);
+
+    }
+    public void button24(View view){
+        Intent intent = new Intent(this, OpeningScreen.class);
         startActivity(intent);
 
     }

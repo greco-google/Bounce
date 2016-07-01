@@ -30,7 +30,7 @@ public class BallAnimation extends View {
         myBall = new Ball(400, 250, Color.BLUE, 10);
        // myTrack = new Track(360,215, Color.BLUE);
         Canvas canvas = new Canvas();
-        canvas.drawRect(360,215,100,100, paint);
+        canvas.drawRect(500,500,500,500, paint);
         //canvas.drawRect(320,175,60,60, paint);
 
         //speed of the ball
